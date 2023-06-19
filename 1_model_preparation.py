@@ -140,7 +140,7 @@ condition_gene_to_remove_actual={}
 condition_needed_gens={}
 
 model_dict={}
-
+os.chdir(out_dir)
 for condition in conditions_of_interest:
     condition_essential_dict[condition]=[]
     model_copy=model.copy()
