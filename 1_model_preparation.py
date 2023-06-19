@@ -29,10 +29,6 @@ medium_kpcs_file=inp1.medium_kpcs_file
 colum_replicates=inp1.colum_replicates
 col_to_erase_l=inp1.col_to_erase_l
 
-#Metabolomics inputs
-max_NA_fraction_pellet=inp1.max_NA_fraction_pellet
-only_run_MFA=inp1.only_run_MFA
-
 #Gene expression inputs
 gene_expression_file=file_name=inp1.gene_expression_file
 conditions_of_interest=inp1.conditions_of_interest
@@ -42,16 +38,9 @@ force_remove_th=inp1.force_remove_th
 objective=inp1.objective
 biomass_fraction=inp1.biomass_fraction
 
-#Differential gene expression file
-deseq_file=inp1.deseq_file
-comparisson_of_interest_deseq_pvalue=inp1.comparisson_of_interest_deseq_pvalue
-p_value_th=inp1.p_value_th
 gene_entrez_column=inp1.gene_entrez_column
-reference_condition=inp1.reference_condition
-#control_condition=inp1.control_contition
 
 #Reactions to keep and kill
-#reactions_to_keep=[]
 reactions_to_keep=inp1.reactions_to_keep
 reactions_to_kill=inp1.reactions_to_kill
 
@@ -60,9 +49,6 @@ out_dir=inp1.out_dir
 
 #Check essential reactions using FVA
 fraction_essential_genes=inp1.fraction_essential_genes
-
-#Find targets
-drug_information_file=inp1.drug_information_file
 
 model=cobra.io.read_sbml_model(model_name)
 
