@@ -135,8 +135,8 @@ mask = deseq_file_pd.index.duplicated(keep='first')
 deseq_file_pd = deseq_file_pd[~mask]
 output_sheet={}
 condition_mta_vres={}
-out_dir='outputs/3'
-os.chdir(out_dir)
+#out_dir='outputs/3'
+#os.chdir(out_dir)
 for key in sorted(data_dict): 
     base_model=source_model=data_dict[key]["source_model"]
     target_model=data_dict[key]["target_model"]
