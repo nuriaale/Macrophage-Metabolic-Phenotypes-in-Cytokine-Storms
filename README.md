@@ -9,7 +9,7 @@ Computational workflow developed to generate macrophages GSMM before and after t
 - 2_sampling.py
   This main purpose of this file is to characterize the cell's metabolism by integrating transcriptomics data
   
--3_qMTA.py
+- 3_qMTA.py
   his main purpose of this file is to detect metabolic differences between two cell cultures
 
   Block_1_functions.py, Block_2_functions.py and Block_3functions.py contains required modules for the main scripts.
