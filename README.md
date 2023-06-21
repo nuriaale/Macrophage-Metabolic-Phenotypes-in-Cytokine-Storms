@@ -2,3 +2,7 @@
 
 Computational workflow developed to generate macrophages GSMM before and after treatment with cytokines 
 
+## Requirements
+
+cobrapy module
+CPLEX
