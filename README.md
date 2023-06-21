@@ -29,3 +29,8 @@ openpyxl package
 string package
 six package
 sympy module
+
+## Comands to run the workflow
+python3 1_model_preparation.py
+python3 2_sampling.py
+python3 3_qMTA.py
